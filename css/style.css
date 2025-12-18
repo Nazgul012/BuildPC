@@ -1,4 +1,4 @@
-/* ===== ОСНОВА ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
-/* ===== ССЫЛКИ ===== */
+
 a {
   color: #00ff9c;
   text-decoration: none;
@@ -21,7 +21,7 @@ a:hover {
   color: #00cc7a;
 }
 
-/* ===== HEADER ===== */
+
 .header {
   background: #141414;
   padding: 20px 40px;
@@ -42,7 +42,7 @@ a:hover {
   font-weight: 600;
 }
 
-/* ===== КАРТОЧКИ ===== */
+
 .card {
   background: #1b1b1b;
   border-radius: 12px;
@@ -78,7 +78,7 @@ a:hover {
   background: #00cc7a;
 }
 
-/* ===== КОРЗИНА ===== */
+
 .basket {
   max-width: 800px;
   margin: 40px auto;
@@ -87,7 +87,7 @@ a:hover {
   border-radius: 15px;
 }
 
-/* ===== ФОРМА КОНТАКТОВ ===== */
+
 input, textarea {
   background: #111;
   border: 1px solid #00ff9c;
@@ -101,7 +101,7 @@ input:focus, textarea:focus {
   box-shadow: 0 0 10px #00ff9c;
 }
 
-/* ===== АДАПТИВ ===== */
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
