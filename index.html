@@ -1,40 +1,46 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>BuildPC — Головна</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildPC - Головна</title>
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
-   
-    <header class="header">
-      <h1 class="logo">BuildPC</h1>
-      <nav class="nav">
-        <a href="index.html">Главная</a>
-        <a href="catalog.html">Каталог</a>
-        <a href="basket.html">Корзина</a>
-        <a href="contacts.html">Контакты</a>
-      </nav>
-    </header>
 
-    <main>
-        <h2>Ласкаво просимо до BuildPC!</h2>
-        <p>BuildPC — це онлайн-конструктор персональних комп’ютерів. Ми допомагаємо підібрати комплектуючі, перевірити сумісність та створити вашу ідеальну збірку.</p>
+<header class="header">
+  <h1 class="logo">BuildPC</h1>
+  <nav class="nav">
+    <a href="index.html">Головна</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="basket.html">Кошик</a>
+    <a href="contacts.html">Контакти</a>
+  </nav>
+</header>
 
-        <h3>Приклади збірок</h3>
-        <img src="./images/gaming_pc.jpg.jpg" alt="Ігровий ПК" width="300">
-        <img src="./images/office_pc.jpg.jpg" alt="Офісний ПК" width="300">
+<section class="hero" style="text-align:center; padding: 60px 20px;">
+    <h2 style="color:#00ff9c; text-shadow: 0 0 10px #00ff9c;">Збери свій ігровий ПК мрії!</h2>
+    <p style="color:#ccc; max-width:600px; margin: 20px auto;">Вибирай комплектуючі, збирай конфігурації та створюй свій ідеальний ігровий комп’ютер з BuildPC.</p>
+</section>
 
-        <p><a href="catalog.html">Переглянути каталог комплектуючих</a></p>
-    </main>
+<section class="catalog" style="display:flex; flex-wrap:wrap; justify-content:center; padding: 20px;">
+    <div class="card">
+        <img src="images/pc.png" alt="Комп'ютер">
+        <h3>Ігровий ПК Ultimate</h3>
+        <p>Ціна: 2500$</p>
+        <button>Додати</button>
+    </div>
+    <div class="card">
+        <img src="images/gpu.png" alt="Відеокарта">
+        <h3>Відеокарта RTX 4080</h3>
+        <p>Ціна: 1500$</p>
+        <button>Додати</button>
+    </div>
+</section>
 
-    <footer>
-        <p>© 2025 BuildPC — навчальний проєкт</p>
-    </footer>
+<footer style="text-align:center; padding: 30px 20px; background:#141414; color:#00ff9c; border-top:2px solid #00ff9c;">
+    <p>&copy; 2025 BuildPC. Всі права захищені.</p>
+</footer>
+
 </body>
 </html>
-
-
-
-
