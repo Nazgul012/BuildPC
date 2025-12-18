@@ -1,46 +1,36 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>BuildPC — Контакти</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildPC - Контакти</title>
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
-   
-    <header class="header">
-      <h1 class="logo">BuildPC</h1>
-      <nav class="nav">
-        <a href="index.html">Главная</a>
-        <a href="catalog.html">Каталог</a>
-        <a href="basket.html">Корзина</a>
-        <a href="contacts.html">Контакты</a>
-      </nav>
-    </header>
 
-    <main>
-        <h2>Зв’язатися з нами</h2>
-        <form>
-            <label>Ім’я: <input type="text" name="name" required></label><br><br>
-            <label>Email: <input type="email" name="email" required></label><br><br>
-            <label>Повідомлення:</label><br>
-            <textarea name="message" rows="5" cols="40" required></textarea><br><br>
-            <button type="submit">Надіслати</button>
-        </form>
+<header class="header">
+  <h1 class="logo">BuildPC</h1>
+  <nav class="nav">
+    <a href="index.html">Головна</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="basket.html">Кошик</a>
+    <a href="contacts.html">Контакти</a>
+  </nav>
+</header>
 
-        <h3>Адреса</h3>
-        <p>м. Київ, вул. Комп’ютерна, 10</p>
-        <p>Email: support@buildpc.ua</p>
+<div class="contact-form" style="max-width:600px; margin:40px auto;">
+    <h2>Контакти</h2>
+    <form>
+        <input type="text" placeholder="Ваше ім’я" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Повідомлення" rows="5"></textarea>
+        <button type="submit">Відправити</button>
+    </form>
+</div>
 
-        <img src="./images/contact.jpg.jpg" alt="Контактна форма" width="300">
-    </main>
+<footer style="text-align:center; padding: 30px 20px; background:#141414; color:#00ff9c; border-top:2px solid #00ff9c;">
+    <p>&copy; 2025 BuildPC. Всі права захищені.</p>
+</footer>
 
-    <footer>
-        <p>© 2025 BuildPC — навчальний проєкт</p>
-    </footer>
 </body>
 </html>
-
-
-
-
