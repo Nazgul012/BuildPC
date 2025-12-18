@@ -1,45 +1,53 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>BuildPC — Каталог</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildPC - Каталог</title>
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
-   
-    <header class="header">
-      <h1 class="logo">BuildPC</h1>
-      <nav class="nav">
-        <a href="index.html">Главная</a>
-        <a href="catalog.html">Каталог</a>
-        <a href="basket.html">Корзина</a>
-        <a href="contacts.html">Контакты</a>
-      </nav>
-    </header>
 
-    <main>
-        <h2>Популярні компоненти</h2>
+<header class="header">
+  <h1 class="logo">BuildPC</h1>
+  <nav class="nav">
+    <a href="index.html">Головна</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="basket.html">Кошик</a>
+    <a href="contacts.html">Контакти</a>
+  </nav>
+</header>
 
-        <h3>Процесори</h3>
-        <img src="./images/cpu.jpg.avif" alt="Процесор" width="300">
+<section class="catalog" style="display:flex; flex-wrap:wrap; justify-content:center; padding: 20px;">
+    <div class="card">
+        <img src="images/pc.png" alt="Комп'ютер">
+        <h3>Ігровий ПК Ultimate</h3>
+        <p>Ціна: 2500$</p>
+        <button>Додати</button>
+    </div>
+    <div class="card">
+        <img src="images/gpu.png" alt="Відеокарта">
+        <h3>Відеокарта RTX 4080</h3>
+        <p>Ціна: 1500$</p>
+        <button>Додати</button>
+    </div>
+    <div class="card">
+        <img src="images/cpu.png" alt="Процесор">
+        <h3>Процесор Intel i9</h3>
+        <p>Ціна: 500$</p>
+        <button>Додати</button>
+    </div>
+    <div class="card">
+        <img src="images/ram.png" alt="Оперативна пам'ять">
+        <h3>Оперативна пам'ять 32GB</h3>
+        <p>Ціна: 200$</p>
+        <button>Додати</button>
+    </div>
+</section>
 
-        <h3>Відеокарти</h3>
-        <img src="./images/gpu.jpg.jpg" alt="Відеокарта" width="300">
+<footer style="text-align:center; padding: 30px 20px; background:#141414; color:#00ff9c; border-top:2px solid #00ff9c;">
+    <p>&copy; 2025 BuildPC. Всі права захищені.</p>
+</footer>
 
-        <h3>Накопичувачі</h3>
-        <img src="./images/ssd.jpg.jpg" alt="SSD диск" width="300">
-
-        <p><a href="basket.html">Додати товари до кошика</a></p>
-    </main>
-
-    <footer>
-        <p>© 2025 BuildPC — навчальний проєкт</p>
-    </footer>
 </body>
 </html>
-
-
-
-
-
