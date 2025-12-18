@@ -1,44 +1,41 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>BuildPC — Меню комплектуючих</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildPC - Меню</title>
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
-   
-    <header class="header">
-      <h1 class="logo">BuildPC</h1>
-      <nav class="nav">
-        <a href="index.html">Главная</a>
-        <a href="catalog.html">Каталог</a>
-        <a href="basket.html">Корзина</a>
-        <a href="contacts.html">Контакты</a>
-      </nav>
-    </header>
 
-    <main>
-        <h2>Оберіть категорію</h2>
-        <ul>
-            <li><img src="./images/cpu.jpg.avif" alt="Процесор" width="300"> Процесори — Intel, AMD</li>
-            <li><img src="./images/gpu.jpg.jpg" alt="Відеокарта" width="300"> Відеокарти — NVIDIA, Radeon</li>
-            <li><img src="./images/ram.jpg.jpg" alt="Оперативна пам’ять" width="300"> Оперативна пам’ять — DDR4, DDR5</li>
-            <li><img src="./images/ssd.jpg.jpg" alt="SSD диск" width="300"> Накопичувачі — SSD, HDD</li>
-            <li><img src="./images/psu.jpg.jpg" alt="Блок живлення" width="300"> Блоки живлення — 400–1000W</li>
-            <li><img src="./images/case.jpg.jpg" alt="Корпус ПК" width="300"> Корпуси — різних форматів</li>
-        </ul>
-    </main>
+<header class="header">
+  <h1 class="logo">BuildPC</h1>
+  <nav class="nav">
+    <a href="index.html">Головна</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="basket.html">Кошик</a>
+    <a href="contacts.html">Контакти</a>
+  </nav>
+</header>
 
-    <footer>
-        <p>© 2025 BuildPC — навчальний проєкт</p>
-    </footer>
+<section class="catalog" style="display:flex; flex-wrap:wrap; justify-content:center; padding: 20px;">
+    <div class="card">
+        <img src="images/gpu.png" alt="Відеокарта">
+        <h3>Відеокарта RTX 4080</h3>
+        <p>Ціна: 1500$</p>
+        <button>Додати</button>
+    </div>
+    <div class="card">
+        <img src="images/cpu.png" alt="Процесор">
+        <h3>Процесор Intel i9</h3>
+        <p>Ціна: 500$</p>
+        <button>Додати</button>
+    </div>
+</section>
+
+<footer style="text-align:center; padding: 30px 20px; background:#141414; color:#00ff9c; border-top:2px solid #00ff9c;">
+    <p>&copy; 2025 BuildPC. Всі права захищені.</p>
+</footer>
+
 </body>
 </html>
-
-
-
-
-
-
-
